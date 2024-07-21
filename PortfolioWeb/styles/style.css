@@ -153,6 +153,20 @@ body main section.resume section.picture div.greenRect3 {
   z-index: -1;
 }
 
+body footer section.about-me {
+  background-color: rgb(231, 255, 233);
+  padding: 5rem 0rem;
+  display: flex;
+  justify-content: center;
+}
+body footer section.about-me section.description {
+  width: 50%;
+  text-align: center;
+}
+body footer section.about-me section.description h2 {
+  font-size: 2rem;
+}
+
 @media screen and (max-width: 800px) {
   body main section.about-me section.description {
     width: 80%;
