@@ -17,7 +17,7 @@
     <nav>
       <ul>
         <li><a href="#">關於Johnny</a></li>
-        <li><a href="./contact.html">聯絡方式</a></li>
+        <li><a href="#contact">聯絡方式</a></li>
         <li><a target="_blank" href="https://github.com/johnny871006/springboot-mall.git">簡易電商(SpringBoot)</a></li>
         <li><a target="_blank" href="">Blog(SpringBoot)</a></li>
       </ul>
@@ -43,7 +43,7 @@
           <h2>
             目前是一位26歲住在桃園的男子!
           </h2>
-          <a href="./contact.html">了解更多</a>
+          <a href="#more">了解更多</a>
         </div>
         <div class="img">
           <img src="./pictures/綠背景照片.png" alt="個人照" />
@@ -101,11 +101,12 @@
       <section class="resume">
         <section class="table">
           <table>
-            <tr style="border-top: 2px solid gray">
-              <td style="width: 20%">自我簡介</td>
+            <tr id="more" style="border-top: 2px solid gray">
+              <td  style="width: 20%">自我簡介</td>
               <td style="width: 80%">
                 畢業於中國文化大學資訊管理系。目前主要興趣是網頁開發、Java等。
-                我也在網路上自學過全端開發、Python、Java、Mern專案內容等，可參考我導覽列github連結。
+                除了學校以及前公司學到的之外，我也在網路上自學過全端開發、Python、Java、
+                Mern專案(內容包含MongoDB、Express.js、React.js、Node.js)等，可參考我導覽列github連結。
               </td>
             </tr>
             <tr>
@@ -158,8 +159,26 @@
             <tr>
               <td>開發經歷</td>
               <td>
-                在精誠資訊時，我曾經開發過兩個網頁專案，分別是WorldGyn以及僑胞網。我負責用HTML做出基本網頁架構、CSS將網頁前端美化以及提升使用外觀、以及後端使用Java SpringBoot。
+                <ul>
+                  <li>
+                    精誠資訊 : 我曾經開發過兩個網頁專案，分別是WorldGyn以及僑胞網。我負責用HTML做出基本網頁架構、CSS將網頁前端美化以及提升使用外觀、以及後端使用Java SpringBoot。
+                  </li>
+                  <li>
+                    宇瑞電子 : 在這家公司基本上都是使用MSSQL去進行報表的製作、ERP(BOne)內的卡控設計、使用者想要的任何需求去進行。
+                  </li>
+                </ul>
+
               </td>
+            </tr>
+            <tr id="contact">
+              <td>聯絡方式</td>
+              <td>
+                <ul>
+                  <li>電話 : 0965398206</li>
+                  <li>信箱 : johnny871006@gmail.com</li>
+                </ul>
+              </td>
+
             </tr>
           </table>
         </section>
@@ -172,19 +191,6 @@
         </section>
       </section>
     </main>
-    <footer>
-      <section class="about-me">
-        <section class="description">
-          <h2>聯絡方式</h2>
-          <p>
-            電話 : 0965398206
-          </p>
-          <p>
-            Email : johnny871006@gmail.com
-          </p>
-        </section>
-      </section>
-    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
