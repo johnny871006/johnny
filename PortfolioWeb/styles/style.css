@@ -160,6 +160,9 @@ body main section.resume section.picture div.greenRect3 {
   body main section.resume {
     overflow-x: auto;
   }
+  td {
+    width: 30%;
+  }
   body main section.resume section.picture div.greenRect1,
   body main section.resume section.picture div.greenRect2,
   body main section.resume section.picture div.greenRect3 {
